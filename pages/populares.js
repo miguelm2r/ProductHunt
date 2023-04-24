@@ -4,7 +4,7 @@ import { FirebaseContext } from "@/firebase";
 import {collection, getDocs} from 'firebase/firestore'
 import DetallesProducto from "@/components/layout/DetallesProducto";
 
-export default function Home() {
+export default function Populares() {
 
   const [productos, setProductos ] = useState([]) 
 
